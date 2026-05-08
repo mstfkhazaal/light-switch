@@ -24,7 +24,7 @@
 
     $containerClass = $inline
         ? 'inline-flex items-center'
-        : ($positionClass . ' w-full flex p-4 z-40 pointer-events-none');
+        : ($positionClass . ' w-full flex p-4 z-30 pointer-events-none');
 @endphp
 
 @if (filament()->hasDarkMode() && (! filament()->hasDarkModeForced()))
