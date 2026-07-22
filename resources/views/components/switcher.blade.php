@@ -11,9 +11,9 @@
     $defaultTheme = filament()->getDefaultThemeMode()->value;
 
     $icons = [
-        'light' => trim(\Illuminate\Support\Facades\Blade::render('<x-filament::icon icon="heroicon-m-sun" class="mt-1 h-5 w-5" />')),
-        'dark' => trim(\Illuminate\Support\Facades\Blade::render('<x-filament::icon icon="heroicon-m-moon" class="mt-1 h-5 w-5" />')),
-        'system' => trim(\Illuminate\Support\Facades\Blade::render('<x-filament::icon icon="heroicon-m-computer-desktop" class="mt-1 h-5 w-5" />')),
+        'light' => trim(\Illuminate\Support\Facades\Blade::render('<x-filament::icon icon="heroicon-m-sun" class="h-5 w-5" />')),
+        'dark' => trim(\Illuminate\Support\Facades\Blade::render('<x-filament::icon icon="heroicon-m-moon" class="h-5 w-5" />')),
+        'system' => trim(\Illuminate\Support\Facades\Blade::render('<x-filament::icon icon="heroicon-m-computer-desktop" class="h-5 w-5" />')),
     ];
 
     $alignment = (string) $alignment;
